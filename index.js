@@ -7,7 +7,7 @@ app.use(express.json());
 const Article = require("./models/Article");
 
 mongooes
-  .connect(
+ .connect(
     "mongodb+srv://ahmedtarek3182004:A3182004a@nodejs.qis7e.mongodb.net/?retryWrites=true&w=majority&appName=nodeJS"
   )
   .then(() => {
